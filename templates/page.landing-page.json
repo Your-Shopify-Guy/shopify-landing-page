@@ -7,9 +7,15 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "16535265524124c583": {
+      "type": "product-landing-page",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16535265524124c583"
   ]
 }
