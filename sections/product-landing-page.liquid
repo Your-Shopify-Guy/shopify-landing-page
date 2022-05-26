@@ -1,0 +1,266 @@
+{%-liquid
+  assign hero_img_class = "tw-mx-auto xl:tw-max-w-screen-lg tw-mb-28"
+  assign hero_img_width = 1500
+  assign hero_img_height = 1007
+  assign second_img_width = 1590
+  assign second_img_height = 1182
+  assign third_img_width = 863
+  assign third_img_height = 680
+  assign forth_img_width = 863
+  assign forth_img_height = 680
+  assign fifth_img_width = 880
+  assign fifth_img_height = 607
+  assign sixth_img_width = 1240
+  assign sixth_img_height = 630
+ 
+-%}
+<div>
+  <section class="tw-font-sans antialiased tw-text-gray-900 tw-bg-gray-200 tw-py-20 lg:tw-py-28"><!-- Start Hero Block -->
+      <div class="tw-container tw-mx-auto tw-px-5 tw-text-center">
+          <div class="tw-mb-16">
+              <div class="tw-space-y-4 tw-mb-12">
+                  <h4 class="tw-text-5xl sm:tw-text-3xl tw-font-semibold">Phantom 4PRO V2.0</h4>
+                  <h1 class="font-sans tw-text-9xl sm:tw-text-7xl tw-font-bold">Visionary intelligence</h1>
+                  <p class="sm:tw-w-3/4 lg:tw-w-2/4 xl:tw-w-96 tw-mx-auto tw-text-2xl sm:tw-text-3xl tw-text-gray-600">Free HTML Single Product eCommerce langing page template</p>
+              </div>
+              <a href="#0" class="tw-px-12 tw-py-4 tw-bg-blue-800 hover:tw-bg-blue-900 tw-transition tw-duration-300 tw-ease-in-out tw-shadow hover:tw-shadow-lg tw-transform hover:tw-scale-110 tw-text-white tw-font-semibold tw-text-lg tw-rounded-full tw-inline-block">Buy now</a>   
+          </div>
+          {%- if section.settings.image != blank -%}              
+            {{ section.settings.image | image_url: width: hero_img_width, height: hero_img_height | image_tag: loading: 'lazy', class: hero_img_class, alt: section.settings.image.alt | escape }} 
+          {%- endif -%}
+          <div class="tw-space-y-12">
+              <p class="lg:tw-w-3/5 tw-mx-auto tw-text-xl sm:tw-text-3xl tw-font-semibold tw-text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet obcaecati perferendis voluptas quasi quidem natus error voluptatibus.</p>
+              <div class="tw-flex tw-flex-col md:tw-flex-row tw-justify-center tw-space-y-5 md:tw-space-y-0 sm:tw-space-x-10 md:tw-space-x-20">
+                  <div class="tw-flex tw-flex-col md:tw-flex-row tw-items-center tw-space-y-3 sm:tw-space-y-0 md:tw-space-x-4 md:tw-text-left">
+                      <span class="tw-flex tw-items-center tw-justify-center tw-h-12 tw-w-12 tw-rounded-full tw-bg-white tw-shadow tw-text-gray-600">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-6 tw-w-6" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                          </svg>
+                      </span>
+                      <span class="tw-font-medium tw-text-gray-600">Mechanical <br>Shutter</span>
+                  </div>
+                  <div class="tw-flex tw-flex-col md:tw-flex-row tw-items-center tw-space-y-3 md:tw-space-y-0 md:tw-space-x-4 md:tw-text-left">
+                      <span class="tw-flex tw-items-center tw-justify-center tw-h-12 tw-w-12 tw-rounded-full tw-bg-white tw-shadow tw-text-gray-600">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-6 tw-w-6" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM14.657 2.929a1 1 0 011.414 0A9.972 9.972 0 0119 10a9.972 9.972 0 01-2.929 7.071 1 1 0 01-1.414-1.414A7.971 7.971 0 0017 10c0-2.21-.894-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 10a5.984 5.984 0 01-1.757 4.243 1 1 0 01-1.415-1.415A3.984 3.984 0 0013 10a3.983 3.983 0 00-1.172-2.828 1 1 0 010-1.415z" clip-rule="evenodd" />
+                            </svg>
+                      </span>
+                      <span class="tw-font-medium tw-text-gray-600">4dB Noise <br>Reduction</span>
+                  </div>
+                  <div class="tw-flex tw-flex-col md:tw-flex-row tw-items-center tw-space-y-3 md:tw-space-y-0 md:tw-space-x-4 md:tw-text-left">
+                      <span class="tw-flex tw-items-center tw-justify-center tw-h-12 tw-w-12 tw-rounded-full tw-bg-white tw-shadow tw-text-gray-600">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-6 tw-w-6" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd" />
+                            </svg>
+                      </span>
+                      <span class="tw-font-medium tw-text-gray-600">1-inch <br>Image Sensor</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section><!-- End Hero Block -->
+
+  <section class="tw-py-10 lg:tw-py-14 tw-pt-16 lg:tw-pt-28"><!-- Start Second Block -->
+      <div class="tw-container tw-mx-auto tw-px-5">
+          <div class="tw-space-y-5 tw-text-center tw-mb-8 lg:tw-mb-16">
+              <h4 class="tw-text-3xl tw-font-semibold tw-text-gray-600">HDR Video</h4>
+              <h2 class="tw-text-4xl sm:tw-text-5xl ftw-ont-bold">Dynamic by Default</h2>
+              <p class="sm:tw-w-3/4 lg:tw-w-2/4 xl:tw-w-1/3 tw-mx-auto tw-text-lg sm:tw-text-xl tw-text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, aliquid!</p>
+          </div>
+          <div class="xl:tw-w-4/5 tw-mx-auto tw-flex tw-items-center tw-justify-center">
+              <button type="button" class="tw-absolute tw-flex tw-items-center tw-px-6 tw-py-3 tw-bg-white tw-rounded-full tw-space-x-2 tw-text-sm tw-font-semibold tw-text-blue-800 stw-hadow-md hover:tw-shadow-lg tw-transition tw-duration-300 tw-transform hover:tw-scale-110">
+                  <span>Watch Video</span>
+                  <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-5 tw-w-5 relative" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" /></svg>
+                  </span>
+              </button>
+               {%- if section.settings.image_2 != blank -%}
+                {{ section.settings.image_2 | image_url: width: second_img_width, height: second_img_height | image_tag: loading: 'lazy', alt: section.settings.image_2.alt | escape }}
+              {%- endif -%}
+          </div>
+      </div>
+  </section><!-- End Second Block -->
+
+  <section class="tw-py-10 lg:tw-py-14"><!-- Start Third Block -->
+      <div class="tw-container tw-mx-auto tw-px-5">
+          <div class="tw-space-y-5 lg:tw-text-center tw-mb-8 lg:tw-mb-16">
+              <h2 class="tw-text-4xl sm:tw-text-5xl tw-font-bold">Powerful Aerial Performance</h2>
+              <p class="sm:tw-w-3/4 lg:tw-w-2/4 xl:tw-w-1/3 lg:tw-mx-auto tw-text-lg sm:tw-text-xl tw-text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, aliquid!</p>
+          </div>
+          <div class="tw-grid tw-gap-y-10 lg:tw-gap-y-0">
+              <div class="tw-grid lg:tw-grid-cols-2 tw-gap-5 lg:tw-gap-0 tw-items-center">
+                  <div class="tw-space-y-4 lg:tw-pr-20">
+                      <h3 class="tw-text-2xl sm:tw-text-4xl tw-font-semibold">Incredible Gimbal Camera</h3>
+                      <p class="tw-text-lg tw-text-gray-600">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, doloribus. Ipsum saepe dicta excepturi vero sint dolorum quo ullam qui possimus inventore nesciunt incidunt, cum vel modi nostrum tempore. Commodi consectetur reiciendis veniam possimus corporis, distinctio officiis eos iste totam fuga, eum magnam adipisci accusantium.
+                      </p>
+                  </div>
+                  <div class="tw-bg-gray-100 tw-p-20">
+                    {%- if section.settings.image_3 != blank -%}
+                      {{ section.settings.image_3 | image_url: width: third_img_width, height: third_img_height | image_tag: loading: 'lazy', alt: section.settings.image_3.alt | escape }}
+                    {%- endif -%}
+                  </div>
+              </div>
+              
+              <div class="tw-grid lg:tw-grid-cols-2 tw-gap-5 lg:tw-gap-0 tw-items-center">
+                  <div class="tw-bg-gray-100 tw-p-20 tw-order-last lg:tw-order-first">
+                    {%- if section.settings.image_4 != blank -%}
+                      {{ section.settings.image_4 | image_url: width: forth_img_width, height: forth_img_height | image_tag: loading: 'lazy', alt: section.settings.image_4.alt | escape }}
+                    {%- endif -%}
+                  </div>
+                  <div class="tw-space-y-4 lg:tw-pl-20">
+                      <h3 class="tw-text-2xl sm:tw-text-4xl tw-font-semibold">Intuitive Remote Controller</h3>
+                      <p class="tw-text-lg tw-text-gray-600">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, doloribus. Ipsum saepe dicta excepturi vero sint dolorum quo ullam qui possimus inventore nesciunt incidunt, cum vel modi nostrum tempore. Commodi consectetur reiciendis veniam possimus corporis, distinctio officiis eos iste totam fuga, eum magnam adipisci accusantium.
+                      </p>
+                  </div>
+              </div>
+
+              <div class="tw-grid lg:tw-grid-cols-2 tw-gap-5 lg:tw-gap-0 tw-items-center">
+                  <div class="tw-space-y-4 lg:tw-pr-20">
+                      <h3 class="tw-text-2xl sm:tw-text-4xl tw-font-semibold">Intelligent Flight Battery</h3>
+                      <p class="tw-text-lg tw-text-gray-600">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, doloribus. Ipsum saepe dicta excepturi vero sint dolorum quo ullam qui possimus inventore nesciunt incidunt, cum vel modi nostrum tempore. Commodi consectetur reiciendis veniam possimus corporis, distinctio officiis eos iste totam fuga, eum magnam adipisci accusantium.
+                      </p>
+                  </div>
+                  <div class="tw-bg-gray-100 tw-p-20">
+                    {%- if section.settings.image_5 != blank -%}
+                        {{ section.settings.image_5 | image_url: width: fifth_img_width, height: fifth_img_height | image_tag: loading: 'lazy', alt: section.settings.image_5.alt | escape }}
+                    {%- endif -%}
+                  </div>    
+              </div>
+          </div>
+      </div>
+  </section><!-- End Third Block -->
+
+  <section class="tw-py-10 lg:tw-py-14 tw-pb-20 lg:tw-pb-28"><!-- Start Fourth Block -->
+      <div class="tw-container tw-mx-auto tw-px-12 sm:tw-px-5">
+          <div class="tw-space-y-5 tw-text-center tw-mb-8 lg:tw-mb-16">
+              <h2 class="tw-text-4xl sm:tw-text-5xl tw-font-bold">Great Specifications</h2>
+              <p class="sm:tw-w-3/4 lg:tw-w-2/4 xl:tw-w-1/3 tw-mx-auto tw-text-lg sm:tw-text-xl tw-text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, aliquid!</p>
+          </div>
+          <div class="tw-grid sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-gap-10">
+              <div class="tw-space-y-6 tw-text-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-14 tw-w-14 tw-mx-auto tw-text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                  <div class="space-y-4">
+                      <h5 class="tw-text-2xl tw-font-semibold">Feature</h5>
+                  <p class="tw-text-lg tw-text-gray-600">Sit distinctio similique voluptas delectus corporis similique nostrum vitae voluptas.</p>
+                  </div>
+              </div>
+              <div class="tw-space-y-6 tw-text-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-14 tw-w-14 tw-mx-auto tw-text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                  <div class="tw-space-y-4">
+                      <h5 class="tw-text-2xl tw-font-semibold">Feature</h5>
+                      <p class="tw-text-lg tw-text-gray-600">Sit distinctio similique voluptas delectus corporis similique nostrum vitae voluptas.</p>
+                  </div>
+              </div>
+              <div class="tw-space-y-6 tw-text-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-14 tw-w-14 tw-mx-auto tw-text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                  <div class="space-y-4">
+                      <h5 class="tw-text-2xl tw-font-semibold">Feature</h5>
+                      <p class="tw-text-lg tw-text-gray-600">Sit distinctio similique voluptas delectus corporis similique nostrum vitae voluptas.</p>
+                  </div>
+              </div>
+              <div class="tw-space-y-6 tw-text-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-14 tw-w-14 tw-mx-auto tw-text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+                  <div class="tw-space-y-4">
+                      <h5 class="tw-text-2xl tw-font-semibold">Feature</h5>
+                      <p class="tw-text-lg tw-text-gray-600">Sit distinctio similique voluptas delectus corporis similique nostrum vitae voluptas.</p>
+                  </div>
+              </div>
+              <div class="tw-space-y-6 tw-text-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-14 tw-w-14 tw-mx-auto tw-text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                  <div class="tw-space-y-4">
+                      <h5 class="tw-text-2xl tw-font-semibold">Feature</h5>
+                      <p class="tw-text-lg tw-text-gray-600">Sit distinctio similique voluptas delectus corporis similique nostrum vitae voluptas.</p>
+                  </div>
+              </div>
+              <div class="tw-space-y-6 tw-text-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-14 tw-w-14 tw-mx-auto tw-text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" /></svg>
+                  <div class="tw-space-y-4">
+                      <h5 class="tw-text-2xl tw-font-semibold">Feature</h5>
+                      <p class="tw-text-lg tw-text-gray-600">Sit distinctio similique voluptas delectus corporis similique nostrum vitae voluptas.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section><!-- End Fourth Block -->   
+  
+  <section class="tw-bg-gray-100 tw-py-20 lg:tw-py-28"><!-- Start Fifth Block -->
+      <div class="tw-container tw-mx-auto tw-px-5">
+          <div class="tw-grid lg:tw-grid-cols-2 tw-gap-10 tw-items-center tw-text-center lg:tw-text-left">
+              <div class="tw-space-y-8">
+                  <div class="tw-space-y-4">
+                      <h2 class="tw-text-3xl sm:tw-text-5xl tw-font-bold">Phantom 4PRO V2.0</h2>
+                      <p class="tw-text-xl tw-text-gray-600">Visionary intelligence. Elevated imagination.</p>
+                  </div>
+                  <div class="tw-flex tw-justify-center lg:tw-justify-start tw-items-center tw-space-x-4">
+                      <a href="#0" class="tw-inline-block tw-rounded-full tw-px-6 tw-py-3 tw-bg-white hover:tw-bg-blue-900 tw-text-blue-800 hover:tw-text-white tw-shadow tw-transition tw-duration-300 hover:tw-shadow-lg tw-text-lg tw-font-semibold">Buy now</a>
+                      <div class="text-xl font-semibold text-blue-800">From $1,599</div>
+                  </div>
+              </div>
+              <div class="">
+                 {%- if section.settings.image_6 != blank -%}
+                    {{ section.settings.image_6 | image_url: width: sixth_img_width, height: sixth_img_height | image_tag: loading: 'lazy', alt: section.settings.image_6.alt | escape }}
+                  {%- endif -%}
+              </div>
+          </div>
+      </div>
+  </section><!-- End Fifth Block -->
+
+  <footer class="tw-py-8 lg:tw-py-12">
+      <div class="tw-container tw-mx-auto tw-px-5 tw-text-center">
+          <div class="tw-flex tw-flex-col md:tw-flex-row tw-justify-center tw-space-y-2 md:tw-space-y-0 md:tw-space-x-4 tw-text-sm tw-text-gray-500 tw-mb-6">
+              <p>Copyright © 2021 Rance. All rights reserved.</p>
+              <p>Images and texts from <a class="tw-text-blue-700 tw-underline" href="https://dji.com" rel="nofollow" target="_blank">dji.com</a> | <a class="tw-text-blue-700 tw-underline" href="https://unsplash.com" rel="nofollow" target="_blank">unsplash.com</a></p>
+          </div>
+          <div class="sm:tw-w-2/4 lg:tw-w-1/3 tw-mx-auto">
+              <p class="tw-text-xs tw-text-gray-400">Photos and texts are used to demonstrate the capabilities of the site template, please do not use them for commercial purposes.</p>
+          </div>
+      </div>
+  </footer>
+</div>
+
+{% schema %}
+  {
+      "name": "t:sections.product-landing-page.name",
+      "settings": [
+        {
+          "type" : "image_picker",
+          "id" : "image",
+          "label" : "t:sections.product-landing-page.settings.image.label"
+        },
+        {
+          "type" : "image_picker",
+          "id" : "image_2",
+          "label" : "t:sections.product-landing-page.settings.image_2.label"
+        },
+        {
+          "type" : "image_picker",
+          "id" : "image_3",
+          "label" : "t:sections.product-landing-page.settings.image_3.label"
+        },
+        {
+          "type" : "image_picker",
+          "id" : "image_4",
+          "label" : "t:sections.product-landing-page.settings.image_4.label"
+        },
+        {
+          "type" : "image_picker",
+          "id" : "image_5",
+          "label" : "t:sections.product-landing-page.settings.image_5.label"
+        },
+        {
+          "type" : "image_picker",
+          "id" : "image_6",
+          "label" : "t:sections.product-landing-page.settings.image_6.label"
+        }      
+      ],
+      "templates": ["index", "page"],
+      "presets" : [
+        {
+          "name": "Product Landing Page"
+        }
+      ]
+  }
+{% endschema %}
