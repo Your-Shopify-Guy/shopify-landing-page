@@ -11,6 +11,12 @@
     "165352700941a48ccf": {
       "type": "product-landing-page",
       "settings": {
+        "image": "shopify:\/\/shop_images\/hero-drone.png",
+        "image_2": "shopify:\/\/shop_images\/girls-w-drone1590x1182.jpg",
+        "image_3": "shopify:\/\/shop_images\/camera-img.png",
+        "image_4": "shopify:\/\/shop_images\/controller-img.png",
+        "image_5": "shopify:\/\/shop_images\/gimbal-img.png",
+        "image_6": "shopify:\/\/shop_images\/bottom-drone.png"
       }
     }
   },
