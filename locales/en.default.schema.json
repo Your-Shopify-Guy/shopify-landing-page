@@ -1245,28 +1245,28 @@
       },
       "presets": {
         "name": "Image with text"
-      },
-      "product-landing-page": {
-        "name": "Product Landing Page",
-        "settings": {
-          "image": {
-            "label": "Hero image"
-          },
-          "image_2": {
-            "label": "Second image"
-          },
-          "image_3": {
-            "label": "Third image"
-          },
-          "image_4": {
-            "label": "Forth image"
-          },
-          "image_5": {
-            "label": "Fifth image"
-          },
-          "image_6": {
-            "label": "Sixth image"
-          }
+      }
+    },
+     "product-landing-page": {
+      "name": "Product Landing Page",
+      "settings": {
+        "image": {
+          "label": "Hero image"
+        },
+        "image_2": {
+          "label": "Second image"
+        },
+        "image_3": {
+          "label": "Third image"
+        },
+        "image_4": {
+          "label": "Forth image"
+        },
+        "image_5": {
+          "label": "Fifth image"
+        },
+        "image_6": {
+          "label": "Sixth image"
         }
       }
     },
