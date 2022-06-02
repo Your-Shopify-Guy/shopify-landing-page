@@ -1247,7 +1247,7 @@
         "name": "Image with text"
       }
     },
-     "product-landing-page": {
+    "product-landing-page": {
       "name": "Product Landing Page",
       "settings": {
         "image": {
@@ -1270,7 +1270,7 @@
         }
       },
       "blocks": {
-         "heading": {
+        "heading": {
           "name": "Hero Heading",
           "settings": {
             "heading": {
