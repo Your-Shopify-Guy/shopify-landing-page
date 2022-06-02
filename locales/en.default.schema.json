@@ -1268,6 +1268,16 @@
         "image_6": {
           "label": "Sixth image"
         }
+      },
+      "blocks": {
+         "heading": {
+          "name": "Heading",
+          "settings": {
+            "heading": {
+              "label": "Heading"
+            }
+          }
+        }
       }
     },
     "main-article": {
