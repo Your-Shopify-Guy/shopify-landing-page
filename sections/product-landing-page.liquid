@@ -29,6 +29,8 @@
           </div>
           {%- if section.settings.image != blank -%}              
             {{ section.settings.image | image_url: width: hero_img_width, height: hero_img_height | image_tag: loading: 'lazy', class: hero_img_class, alt: section.settings.image.alt | escape }} 
+          {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
           <div class="tw-space-y-12">
               <p class="lg:tw-w-3/5 tw-mx-auto tw-text-xl sm:tw-text-3xl tw-font-semibold tw-text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet obcaecati perferendis voluptas quasi quidem natus error voluptatibus.</p>
@@ -78,6 +80,8 @@
               </button>
                {%- if section.settings.image_2 != blank -%}
                 {{ section.settings.image_2 | image_url: width: second_img_width, height: second_img_height | image_tag: loading: 'lazy', alt: section.settings.image_2.alt | escape }}
+                {%- else -%}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               {%- endif -%}
           </div>
       </div>
@@ -100,6 +104,8 @@
                   <div class="tw-bg-gray-100 tw-p-20">
                     {%- if section.settings.image_3 != blank -%}
                       {{ section.settings.image_3 | image_url: width: third_img_width, height: third_img_height | image_tag: loading: 'lazy', alt: section.settings.image_3.alt | escape }}
+                      {%- else -%}
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
                     {%- endif -%}
                   </div>
               </div>
@@ -108,6 +114,8 @@
                   <div class="tw-bg-gray-100 tw-p-20 tw-order-last lg:tw-order-first">
                     {%- if section.settings.image_4 != blank -%}
                       {{ section.settings.image_4 | image_url: width: forth_img_width, height: forth_img_height | image_tag: loading: 'lazy', alt: section.settings.image_4.alt | escape }}
+                    {%- else -%}
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
                     {%- endif -%}
                   </div>
                   <div class="tw-space-y-4 lg:tw-pl-20">
@@ -128,6 +136,8 @@
                   <div class="tw-bg-gray-100 tw-p-20">
                     {%- if section.settings.image_5 != blank -%}
                         {{ section.settings.image_5 | image_url: width: fifth_img_width, height: fifth_img_height | image_tag: loading: 'lazy', alt: section.settings.image_5.alt | escape }}
+                        {%- else -%}
+                            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
                     {%- endif -%}
                   </div>    
               </div>
@@ -203,6 +213,8 @@
               <div class="">
                  {%- if section.settings.image_6 != blank -%}
                     {{ section.settings.image_6 | image_url: width: sixth_img_width, height: sixth_img_height | image_tag: loading: 'lazy', alt: section.settings.image_6.alt | escape }}
+                    {%- else -%}
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
                   {%- endif -%}
               </div>
           </div>
